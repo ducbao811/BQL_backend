@@ -12,8 +12,11 @@ For building and running the application you need:
 
 - [JDK 11](https://www.oracle.com/java/technologies/downloads/#java11)
 - [Maven 3](https://maven.apache.org)
+- [MySQL server](https://dev.mysql.com/downloads/installer/)
 
 ## Running the application locally
+
+Firstly, the `e_commerce.sql` file should be executed in MySQL server for creating database schema for the project.
 
 There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `src/main/java/com/bql_backend/bql_backend/BqlBackendApplication.java` file from your IDE.
 
